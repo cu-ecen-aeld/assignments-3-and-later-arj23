@@ -1,7 +1,6 @@
 #!/bin/sh
 # Author: Ahmadreza Jahani
 
-set -u
 
 if [ $# != 2 ]
 then   
