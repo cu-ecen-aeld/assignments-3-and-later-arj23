@@ -1,6 +1,6 @@
 # Default target: compile the program with GCC
 writer: writer.c
-ifdef CROSS_COMPILE
+ifdef 
 	$(CROSS_COMPILE)gcc -Wall -Wextra -o writer writer.c
 else
 	gcc -Wall -Wextra -o writer writer.c
